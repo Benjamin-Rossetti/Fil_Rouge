@@ -1,0 +1,1 @@
+Ce projet conciste a apprendre HTML/CSS en faisant un site web sur le thème des fraise. Ce projet nous a appris: la structure d'une page web, comment lui donner un style, on a appris les flexbox / grid et le responsive design.
