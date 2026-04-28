@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle">☰ Menu</label>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="pages/gariguette.html">La gariguette</a></li>
+                <li><a href="pages/mariguette.html">La mariguette</a></li>
+                <li><a href="pages/clery.html">La cléry</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1>Contactez-nous</h1>
+        <p>Utilisez ce formulaire pour commander veos barquettes de fraises préféreées ou simplement pour nous envoeyr un message.🍓</p>
+    </section>
+    <section>
+        <form>
+            <section>
+                <label for="nom">Nom</label>
+                <input id="nom" name="nom" type="text"required>
+
+                <label for="prenom">Prénom</label>
+                <input id="prenom" name="prenom" type="text"required>
+
+                <label for="adresse">Adresse</label>
+                <input id="adresse" name="adresse" type="text"required>
+
+                <label for="lieu">lieu</label>
+                <input id="lieu" name="lieu" type="text"required>
+
+                <label for="npa">N postal (NPA)</label>
+                <input id="npa" name="" type="text"required>
+            </section>
+            <section>
+                <fieldset>
+                    <article>
+                        <legend>Votre commande</legend>
+
+                        <label for="want">Barquette de fraise désirée:</label><br>
+                        <input type="radio" name="barquette" value="gariguette">Gariguette
+                        <input type="radio" name="barquette" value="mariguette">Mariguette
+                        <input type="radio" name="barquette" value="clery">Cléry <br>
+
+                        <label for="quantite">Quantité</label>
+
+                        <select name="selct"required>
+                            <option value="0">-- Choisissez --</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                        </select>
+                    </article>
+                    <article>
+                        <fieldset>
+                            <legend>Mode de paiement</legend>
+                            <input type="radio" name="paiement" value="livraison">Payement à la livraison
+                            <input type="radio" name="paiement" value="cb">Carte bancaire
+                            <input type="radio" name="paiement" value="paypal">paypal <br>
+                        </fieldset>
+                    </article>
+                </fieldset>
+
+            </section>
+            <section>
+                <label for="message">Message</label>
+                <textarea name="message"></textarea> <br>
+
+                <input type="checkbox" required>
+                <label for="checkbox">J'accepte les conditions gémérales *</label> <br>
+                <button>Envoyer</button>
+            </section>
+        </form>
+    </section>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="mention-legales.html">Mentions légales</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="https://www.etml.ch/">ETML</a></li>
+                <li><a href="mailto:benjamin.rossetti@eduvaud.ch">benjamin.rossetti@eduvaud.ch</a></li>
+            </ul>
+        </nav>
+        <p>© 2026 - Tous droits réservés</p>
+    </footer>
+
+</body>
+</html>
